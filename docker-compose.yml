@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  maktabkhoone_panel:
+    build: ./mysite
+    volumes:
+      - ./mysite:/app
+    ports:
+      - 8000:8000
+
+  nginx:
+    build: ./nginx
+    volumes:
+      - static:/static
+    ports:
+      - 80:80
+    depends_on:
+      - maktabkhoone_panel
+
+volumes:
+  static:

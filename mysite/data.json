@@ -1,0 +1,645 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "accounts",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "courses",
+        "model": "course"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "courses",
+        "model": "teacher"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "courses",
+        "model": "review"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vob0hzu5u52v0cl5bn6ppi6sjc0u40u4",
+    "fields": {
+        "session_data": "NTA2N2E2MGEzOTMzNWUwNjYwYWE1YTc1YmEwZGRmODY0ZTRjOWNmMzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3Y2I0OWYxNjA0NWQ3Mjk0ZWMyMzgxNzQyYmFmNzRhN2Y1ZDY2ZTlmIn0=",
+        "expire_date": "2022-03-05T15:21:03.592Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+        "created": "2022-02-19T13:05:38.757Z",
+        "updated": "2022-02-19T13:05:38.757Z",
+        "title": "Python For Beginners",
+        "description": "Python For Beginners",
+        "teacher": 1,
+        "price": 500000,
+        "published_at": "2022-02-14T09:30:00Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+        "created": "2022-02-19T13:08:10.423Z",
+        "updated": "2022-02-19T13:08:10.423Z",
+        "title": "Python For Pro",
+        "description": "Python For Pro",
+        "teacher": 1,
+        "price": 1500000,
+        "published_at": "2022-03-14T10:30:00Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+        "created": "2022-02-19T13:09:11.318Z",
+        "updated": "2022-02-19T13:09:11.318Z",
+        "title": "Django Mastery",
+        "description": "Django Mastery",
+        "teacher": 1,
+        "price": 650000,
+        "published_at": "2022-03-20T16:00:00Z"
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 4,
+    "fields": {
+        "created": "2022-02-19T13:11:16.406Z",
+        "updated": "2022-02-19T13:11:16.406Z",
+        "title": "Java A-z",
+        "description": "Java A-z",
+        "teacher": 1,
+        "price": 1400000,
+        "published_at": "2022-03-01T16:30:00Z"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 6,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 6,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 6,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 6,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add course",
+        "content_type": 7,
+        "codename": "add_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change course",
+        "content_type": 7,
+        "codename": "change_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete course",
+        "content_type": 7,
+        "codename": "delete_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view course",
+        "content_type": 7,
+        "codename": "view_course"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add teacher",
+        "content_type": 8,
+        "codename": "add_teacher"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change teacher",
+        "content_type": 8,
+        "codename": "change_teacher"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete teacher",
+        "content_type": 8,
+        "codename": "delete_teacher"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view teacher",
+        "content_type": 8,
+        "codename": "view_teacher"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add review",
+        "content_type": 9,
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change review",
+        "content_type": 9,
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete review",
+        "content_type": 9,
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view review",
+        "content_type": 9,
+        "codename": "view_review"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$RyI6dNqU9yRL$WGSpkZgQ4BduQAbYuKD/SaDhCwhN4iRnZF3bKBOhV+k=",
+        "last_login": "2022-02-19T14:48:44.147Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@email.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-02-19T12:48:31.041Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$pyRFfeLuAiWe$RA/+qNTZjgcMR6rXISx9f5UuDl+rwKCRi3OiGpTfris=",
+        "last_login": "2022-02-19T15:21:03.529Z",
+        "is_superuser": false,
+        "username": "reza",
+        "first_name": "Reza",
+        "last_name": "Heydari",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-02-19T13:04:23Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$D7IQsBH2i0B4$0sBUFleuHIEzbkSEk1TcaKuNe9dN1oR9PjK4Lx1mE3g=",
+        "last_login": "2022-02-19T13:43:08.522Z",
+        "is_superuser": false,
+        "username": "vahid",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-02-19T13:42:47.211Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "courses.teacher",
+    "pk": 1,
+    "fields": {
+        "created": "2022-02-19T13:04:59.352Z",
+        "updated": "2022-02-19T13:04:59.352Z",
+        "user": 2
+    }
+},
+{
+    "model": "courses.review",
+    "pk": 1,
+    "fields": {
+        "created": "2022-02-19T14:48:54.885Z",
+        "updated": "2022-02-19T14:49:19.732Z",
+        "course": 1,
+        "user": 3,
+        "score": 4
+    }
+},
+{
+    "model": "courses.review",
+    "pk": 2,
+    "fields": {
+        "created": "2022-02-19T14:49:28.637Z",
+        "updated": "2022-02-19T14:49:28.637Z",
+        "course": 2,
+        "user": 1,
+        "score": 1
+    }
+},
+{
+    "model": "courses.review",
+    "pk": 3,
+    "fields": {
+        "created": "2022-02-19T14:52:21.839Z",
+        "updated": "2022-02-19T14:52:21.839Z",
+        "course": 1,
+        "user": 1,
+        "score": 1
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-02-19T13:04:48.757Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "reza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-02-19T13:04:59.353Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Teacher object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-02-19T13:42:47.303Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "vahid",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-02-19T14:48:54.886Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Review object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-02-19T14:49:19.734Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Review object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-02-19T14:49:28.639Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Review object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-02-19T14:52:21.840Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Review object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
